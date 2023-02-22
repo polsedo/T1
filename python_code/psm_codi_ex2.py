@@ -4,14 +4,13 @@ import soundfile as sf
 import sounddevice as sd 
 from numpy.fft import fft
                           
-x_r, fm = sf.read('so_2.wav')
+x_r, fm = sf.read('so_1.wav')
 magspec = plt.magnitude_spectrum(x_r, fm)
 #print(np.mean(magspec.))
 fxx=magspec[1][np.argmax(magspec[0])]
-print(fxx)
+print(f'la frequencia fonamental del to es de "{fxx}"Hz')
 
 T= 2.5  
-fx=4000
 L = int(fm * T)                      # Nombre de mostres del senyal digital
 Tm=1/fm                              # Període de mostratge
 t=Tm*np.arange(L)     
