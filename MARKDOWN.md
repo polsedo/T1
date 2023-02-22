@@ -8,7 +8,7 @@ formato en una amplia gama de aplicaciones; muy notablemente, **GitHub**, **Doxy
 (ciertamente, :eyes:).
 
 
-Encabezados y marcadores de sección
+Encabezados y marcadores de sección 
 -----------------------------------
 
 Una de las principales características de Markdown es su capacidad de estructurar el texto con títulos de 
