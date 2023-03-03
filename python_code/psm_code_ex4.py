@@ -50,7 +50,7 @@ plt.show()
 
 aviso=tkinter.Tk()
 W1= ttk.Label(aviso, text='Estas escoltant September de Earth Wind and Fire')
-W1.grid(column=0, row=1,padx=50,pady=50)
+W1.grid(column=0, row=1,padx=20,pady=20)
 W1.pack()
 aviso.mainloop()
 
